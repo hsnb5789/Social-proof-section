@@ -173,7 +173,7 @@ main {
     }
 
     .container {
-        width: 1025px;
+        width: 1160px;
         padding: 20px;
     }
 
@@ -194,12 +194,13 @@ main {
     }
 
     .top-LeftSec h1 {
-        font-size: 42px;
+        font-size: 52px;
+        font-weight: 700;
     }
 
     .top-RightSec {
         width: 100%;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         margin-left: 120px;
     }
@@ -215,11 +216,11 @@ main {
     }
 
     .reportGuru {
-        margin-left: 50px;
+        margin-right: 50px;
     }
 
-    .bestTech {
-        margin-left: 100px;
+    .reviews {
+        margin-right: 100px;
     }
 
     .bottom-section {
@@ -227,6 +228,10 @@ main {
         align-items: flex-start;
         width: 100%;
         gap: 2.5rem;
+    }
+
+    .bottom-section .vBuyer {
+        width: 350px;
     }
 
 
